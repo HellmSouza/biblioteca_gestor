@@ -4,7 +4,7 @@
     if(isset($_POST['nome']) || isset($_POST['telefone']) || isset($_POST['email'])) {
 
         if(strlen($_POST['nome']) == 0){
-            echo "Insira o Nome do Locador";           
+            echo "Insira o Nome do Locadosr";           
         } else if(strlen($_POST['email']) == 0)
             echo "Insira o email do Locador";
             else if(strlen($_POST['livro']) == 0){
@@ -12,7 +12,8 @@
             $nome = $mysqli->real_escape_string($_POST['nome']);
             $telefone = $mysqli->real_escape_string($_POST['email']);
             $email = $mysqli->real_escape_string($_POST['livro']);
-            #$sql = "INSER INTO locacoes (livro, nome, email, dataLocacao) VALUES (livro_id, cliente_nome, cliente_email, data_locacao);
+
+             #$sql = "INSER INTO locacoes (livro, nome, email, dataLocacao) VALUES (livro_id, cliente_nome, cliente_email, data_locacao);
             # if (mysqli_querry($mysqli, $sql)){
                 #echo "Locação Realizada";
             #} else {
@@ -20,6 +21,7 @@
             #}
             #mysqli_close($mysqli);
     }
+}   
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
