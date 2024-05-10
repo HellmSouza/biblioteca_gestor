@@ -1,0 +1,23 @@
+READ.me
+
+A pagina de home possui as opções de cada formulário
+
+Clicando no link de cada um ele direciona para a pagina desejada
+
+Foi feita uma pagina para cadastro do livro
+
+Foi feita outra pagina para cadastro dos livros
+
+Foi feita outra pagina para as locacoes
+ 
+Para executar os arquivos acessar no localhost o seguinte caminho: http://localhost/gestao_biblioteca/home.php
+
+para envio de e-mail foi realizada a consulta no repositório phpmailer https://github.com/PHPMailer/PHPMailer
+
+Foi executado o comando 'composer require phpmailer/phpmailer' dentro do diretório dos arquivos 
+
+var/www/html/gestao_biblioteca
+
+para instalação do PHPMailer
+
+Foi copiado o código base 
